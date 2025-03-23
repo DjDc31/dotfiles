@@ -8,6 +8,7 @@ plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting his
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
+export PATH="$PATH:$HOME/development/flutter/bin"
 
 # Disable warning about insecure completion-dependent directories
 ZSH_DISABLE_COMPFIX=true
@@ -70,3 +71,6 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Created by `pipx` on 2025-02-24 15:56:56
+export PATH="$PATH:/Users/cyrille/.local/bin"
